@@ -6,7 +6,7 @@ const jwt = require('jsonwebtoken')
 
 app.use(express.static(__dirname + '/dist/ecom-project'));
 
-  app.use(cors());
+//   app.use(cors());
   
 const connection = mysql.createConnection({
     // connectionLimit : 50,
